@@ -9,12 +9,15 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Two numbers in [0-15] are converted into 4 bit binary numbers. For example, A = 8 and B = 3:
+A = 1000
+B = 0011
+The two numbers are then added.
 
 ## How to test
 
-Explain how to use your project
+Enter the numbers using the switches (inputs 0-3 for A (LSB=0), inputs 4-7 for B (LSB=4)) and observe the ouput (LSB=0)
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Switches for input (8), LEDs for output (5).
